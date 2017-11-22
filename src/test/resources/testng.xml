@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TesterHomeTest">
+    <test name="InterfaceTest">
+        <classes>
+            <class name="TestHomeInterfaceTest">
+                <methods>
+                    <include name="test_Excellent_Topics_MoreThan_One" />
+            </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
