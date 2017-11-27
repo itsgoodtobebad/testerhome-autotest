@@ -1,5 +1,5 @@
-import groovy.transform.ASTTest;
-import org.testng.annotations.BeforeTest;
+package com.itsgoodtobebad.autotest;
+
 import org.testng.annotations.Test;
 
 import static io.restassured.RestAssured.given;
@@ -19,5 +19,4 @@ public class TestHomeInterfaceTest {
                 .then()
                 .body("topics.findAll{it.excellent == 1}.size()", greaterThan(1));
     }
-
 }

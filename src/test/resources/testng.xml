@@ -2,7 +2,7 @@
 <suite name="TesterHomeTest">
     <test name="InterfaceTest">
         <classes>
-            <class name="TestHomeInterfaceTest">
+            <class name="com.itsgoodtobebad.autotest.TestHomeInterfaceTest">
                 <methods>
                     <include name="test_Excellent_Topics_MoreThan_One" />
             </methods>
